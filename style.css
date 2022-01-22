@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Work+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+section {
+  width: 70%;
+  height: 500px;
+  background-color: rgb(211, 211, 211);
+  margin: 50px auto auto auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+.container #top-left-icons {
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+.container #top-left-icons .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.container #top-left-icons .circle:first-child {
+  background-color: red;
+}
+.container #top-left-icons .circle:nth-child(2) {
+  background-color: yellow;
+}
+.container #top-left-icons .circle:last-child {
+  background-color: #06ff00;
+}
+
+.container {
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+.container [search-icon] p {
+  width: 600px;
+  padding: 2px;
+  color: rgb(71, 71, 71);
+  background-color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* Body */
+
+.body-part {
+  width: 100%;
+  height: 400px;
+  background-color: wheat;
+  background-image: url(./pictures/dc_logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.body-part div {
+  color: white;
+}
+.cir-container {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+
+  height: 40px;
+}
+.cir-container .cir2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.cir-container .cir2:first-child {
+  background-color: grey;
+}
+.cir-container .cir2:nth-child(2) {
+  background-color: rgb(194, 193, 193);
+}
+.cir-container .cir2:last-child {
+  background-color: rgb(194, 193, 193);
+}
+.vertical {
+  width: 50px;
+  height: 80px;
+  background-color: rgb(32, 32, 32);
+  margin: 0 auto;
+}
+.horizontal {
+  width: 400px;
+  height: 65px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 65px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+}
