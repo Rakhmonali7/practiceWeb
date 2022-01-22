@@ -6,7 +6,8 @@
 }
 body {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 100px);
+  font-family: "Work sans";
 }
 section {
   width: 70%;
@@ -65,8 +66,32 @@ section {
   background-position: center;
   background-size: cover;
 }
-.body-part div {
+.body-part {
+  position: relative;
   color: white;
+}
+.body-part .text {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  right: 470px;
+  bottom: 15px;
+}
+.body-part .num {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.body-part .arrow {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.body-part .arrow div {
+  font-size: 50px;
+  font-weight: bold;
 }
 .cir-container {
   display: flex;
