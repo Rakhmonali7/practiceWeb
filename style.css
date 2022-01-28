@@ -1,140 +1,66 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Work+Sans:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  width: 100%;
-  height: calc(100vh - 100px);
-  font-family: "Work sans";
-}
 section {
-  width: 70%;
-  height: 500px;
-  background-color: rgb(211, 211, 211);
-  margin: 50px auto auto auto;
-  padding: 5px;
-  border-radius: 5px;
-}
-.container #top-left-icons {
-  width: 80px;
-  display: flex;
-  justify-content: space-around;
-  margin-left: 10px;
-}
-.container #top-left-icons .circle {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
-.container #top-left-icons .circle:first-child {
-  background-color: red;
-}
-.container #top-left-icons .circle:nth-child(2) {
-  background-color: yellow;
-}
-.container #top-left-icons .circle:last-child {
-  background-color: #06ff00;
-}
-
-.container {
   width: 100%;
-  height: 40px;
-
+  height: calc(100vh - 120px);
+  padding: 15px;
   display: flex;
-  align-items: center;
-  gap: 200px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
-.container [search-icon] p {
-  width: 600px;
-  padding: 2px;
-  color: rgb(71, 71, 71);
-  background-color: white;
-  font-weight: 400;
-  font-size: 20px;
+.card {
+  height: 25%;
+  background-color: rgb(79, 114, 22);
+  border: 5px solid;
 }
-
-/* Body */
-
-.body-part {
-  width: 100%;
-  height: 400px;
-  background-color: wheat;
-  background-image: url(./pictures/dc_logo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.item1 {
+  width: 200px;
 }
-.body-part {
-  position: relative;
-  color: white;
+.item2 {
+  width: 900px;
+  margin: 0 50px;
 }
-.body-part .text {
-  text-align: center;
-  font-size: 20px;
-  position: absolute;
-  right: 470px;
-  bottom: 15px;
+.item3 {
+  width: 200px;
 }
-.body-part .num {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+.item4 {
+  width: 900px;
 }
-.body-part .arrow {
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
+.item5 {
+  width: 150px;
 }
-.body-part .arrow div {
-  font-size: 50px;
-  font-weight: bold;
+.item6 {
+  width: 300px;
+  flex-grow: 1;
 }
-.cir-container {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
-
-  height: 40px;
+.item7 {
+  width: 150px;
 }
-.cir-container .cir2 {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+.item8 {
+  width: 300px;
+  flex-grow: 1;
 }
-.cir-container .cir2:first-child {
-  background-color: grey;
+.item9 {
+  width: 900px;
 }
-.cir-container .cir2:nth-child(2) {
-  background-color: rgb(194, 193, 193);
+.item10 {
+  width: 300px;
+  flex-grow: 1;
 }
-.cir-container .cir2:last-child {
-  background-color: rgb(194, 193, 193);
+.item11 {
+  width: 150px;
 }
-.vertical {
-  width: 50px;
-  height: 80px;
-  background-color: rgb(32, 32, 32);
-  margin: 0 auto;
+.item12 {
+  width: 300px;
+  flex-grow: 1;
 }
-.horizontal {
-  width: 400px;
-  height: 65px;
-  background-color: rgb(32, 32, 32);
-  color: white;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  line-height: 65px;
-  margin: 0 auto;
-  border-radius: 30px;
+.item13 {
+  width: 150px;
 }
-.footer {
-  width: 100%;
-  height: 200px;
+.item14 {
+  width: 300px;
+  flex-grow: 1;
 }
